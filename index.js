@@ -23,9 +23,9 @@ module.exports = {
       });
     });
   },
-  wakati(text) {
+  wakachi(text) {
     return new Promise((resolve, reject) => {
-      mecab.wakati(text, (err, result) => {
+      mecab.wakachi(text, (err, result) => {
         if (err) {
           reject(err);
         }
