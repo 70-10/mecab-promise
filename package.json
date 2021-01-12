@@ -5,8 +5,18 @@
   "repository": "70-10/mecab-promise",
   "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "fix": "eslint --fix ./*.js",
+    "format": "prettier --write ./*.js"
+  },
   "dependencies": {
     "mecab-async": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1"
   },
   "engines": {
     "node": ">=12"
