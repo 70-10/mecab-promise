@@ -1,0 +1,8 @@
+version: "3"
+services:
+  mecab:
+    build: .
+    volumes:
+      - .:/work
+    working_dir: /work
+    command: bash -c 'yarn && node example.js'

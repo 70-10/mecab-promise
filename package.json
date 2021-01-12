@@ -1,0 +1,14 @@
+{
+  "name": "mecab-promise",
+  "version": "0.1.0",
+  "description": "MeCab for Promise",
+  "repository": "70-10/mecab-promise",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "mecab-async": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
