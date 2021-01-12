@@ -14,9 +14,7 @@ npm install mecab-promise
 const mecab = require("mecab-promise");
 
 async function main() {
-  const nodes = await mecab.parse(
-    "きゃりーぱみゅぱみゅがGINZA SIXでインスタ映えするライブを行う"
-  );
+  const nodes = await mecab.parse("すもももももももものうち");
   console.log(nodes);
 }
 

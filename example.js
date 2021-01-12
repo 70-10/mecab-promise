@@ -1,9 +1,7 @@
 const mecab = require("./");
 
 async function main() {
-  const nodes = await mecab.parse(
-    "きゃりーぱみゅぱみゅがGINZA SIXでインスタ映えするライブを行う"
-  );
+  const nodes = await mecab.parse("すもももももももものうち");
   console.log(nodes);
 }
 
