@@ -1,6 +1,6 @@
 {
   "name": "mecab-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MeCab for Promise",
   "repository": "70-10/mecab-promise",
   "license": "MIT",
